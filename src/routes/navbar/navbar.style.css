@@ -1,0 +1,27 @@
+.navbar-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+.navbar-container .navbar-links{
+    align-items: center;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+.navbar-container .navbar-link{
+    margin: 10px;
+    color: red;
+    
+}
+.navbar-container .logo img{
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+}

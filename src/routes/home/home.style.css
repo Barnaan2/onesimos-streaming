@@ -1,0 +1,32 @@
+.index-container{
+    
+  display: flex;
+
+justify-content: space-between;
+margin-left: 2%;
+margin-right: 2%;
+ 
+}
+.index-container :first-child{
+    width: 45%;
+}
+.index-container :nth-child(2){
+    width: 45%;
+}
+@media screen and (max-width: 510px) {
+    .index-container{
+        display: grid;
+     margin-top: 50%;
+        
+    }
+    .index-container :first-child{
+        width: 100%;
+    }
+    .index-container :nth-child(2){
+        width: 100%;
+    }
+    .iframe{
+        height: 400px;
+    }
+
+}
