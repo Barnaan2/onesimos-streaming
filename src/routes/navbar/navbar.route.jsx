@@ -16,6 +16,9 @@ return(
         <Link className="navbar-link" to="/services">
          service
         </Link> 
+        <Link className="navbar-link" to="/give">
+        give
+        </Link> 
     </div>
 </div>
 <Outlet/>

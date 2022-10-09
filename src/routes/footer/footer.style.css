@@ -1,8 +1,9 @@
 .footer-container{
-    background-color: black;
-    color: rgb(250, 243, 243);
+    background-color: rgb(24, 23, 49);
+    border-top-right-radius: 10%;
+    color: white;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 2em;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

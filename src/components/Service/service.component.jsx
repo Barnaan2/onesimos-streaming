@@ -2,9 +2,18 @@ const Service = ()=>{
     return(
 
     <div className="service-container">
-        <h1>
-        sechdule  and service should be place
-        </h1>
+      <table>
+        <thead>
+Monday
+        </thead>
+        <thead>
+Tuesday
+        </thead>
+        <tr>
+            <td> Preaching and healing time </td>
+            <td> Prayer and worshing time</td>
+        </tr>
+      </table>
     </div>
     );
 }

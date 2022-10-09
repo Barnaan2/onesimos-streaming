@@ -2,7 +2,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(15, 17, 59);
     color: white;
     margin-bottom: 5px;
     position: sticky;
@@ -10,14 +10,14 @@
 }
 .navbar-container .navbar-links{
     align-items: center;
-    color: red;
+   
     display: flex;
     justify-content: space-between;
     margin-right: 60px;
 }
 .navbar-container .navbar-link{
     margin: 10px;
-    color: red;
+  
     
 }
 .navbar-container .logo img{
