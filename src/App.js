@@ -19,6 +19,5 @@ const App =()=> {
     </div>
   );
 }
-https://dl3.downloadly.ir/Files/Elearning/Udemy_CSS_Layouts_Masterclass_Build_Responsive-Adaptive_Websites_2022-8.part5_Downloadly.ir.rar
 
 export default App;

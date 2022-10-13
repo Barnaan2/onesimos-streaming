@@ -1,27 +1,59 @@
-.navbar-container{
-    align-items: center;
+header{
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(15, 17, 59);
-    color: white;
-    margin-bottom: 5px;
-    position: sticky;
-    top: 0;
+    padding:1rem;
+    background-color: rgb(75, 27, 120);
+    gap: 10px;
 }
-.navbar-container .navbar-links{
-    align-items: center;
-   
+.logo{
+    flex-basis: 20%;
     display: flex;
-    justify-content: space-between;
-    margin-right: 60px;
 }
-.navbar-container .navbar-link{
-    margin: 10px;
-  
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     
 }
-.navbar-container .logo img{
-    height: 100px;
-    border-radius: 50%;
-    width: 100px;
+nav{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:inherit;
+}
+a{
+    flex-basis: 100%;
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(134, 81, 183);
+    border-radius: 7px;
+}
+.form{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form input{
+    padding:10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.form input::placeholder{
+    font-weight: 600;
+    text-align: center;
+}
+@media screen and (max-width: 630px){
+    header{
+        flex-wrap: wrap;
+        
+    }
+    nav{
+        flex-basis: 100%;
+        order:1;
+    }
+    
 }
