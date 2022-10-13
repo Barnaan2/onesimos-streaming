@@ -5,15 +5,22 @@ import Prayer from "../../components/Prayer/prayer.component";
 const Home = ()=>{
 
     return(
-<div className="index-container">
+        <div className="home">
+            <h1>Onenismos Streaming</h1>
+            <h3>Onesimos Streaming , watch Word of GOD online</h3>
+            
+<figure>
 
-    <VideoComp/>
-  
-    <Prayer/>
-    <Bible/>
+<VideoComp/>
+
+{/* <Prayer/> */}
+<Bible/>
 
 
-</div>
+</figure>
+
+        </div>
+
     );
 }
 export default Home;

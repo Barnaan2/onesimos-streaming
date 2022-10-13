@@ -1,3 +1,6 @@
-.bible-frame{
-    margin-top: 40px;
+.bible{
+    
+    display: flex;
+   flex-direction: column;
+   row-gap: 2rem;
 }

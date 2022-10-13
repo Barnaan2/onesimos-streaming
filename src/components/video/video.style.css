@@ -1,0 +1,8 @@
+.video{
+    display: flex;
+    flex-basis: 70%;
+    background-color: red;
+}
+.video .frame{
+    flex-basis:100%;
+}
